@@ -1,0 +1,6 @@
+.ds_store
+.DS_Store
+.DS_STORE
+node_modules
+
+/vendor/

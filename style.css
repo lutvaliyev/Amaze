@@ -1,0 +1,101 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+ul{
+    list-style: none;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+.flex{
+    display: flex;
+}
+.j-start{
+    justify-content: flex-start;
+}
+.j-center{
+    justify-content: center;
+}
+.j-end{
+    justify-content: flex-end;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-around{
+    justify-content: space-around;
+}
+.a-center{
+    align-items: center;
+}
+.head{
+    padding-top: 20px;
+}
+.header-logo{
+    width: 110px;
+    height: 110px;
+}
+.header-logo img{
+    filter: grayscale(1);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.head-intro{
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+    grid-template-rows: minmax(200px, auto);
+    grid-auto-flow: dense;
+    grid-gap: 5px;
+    align-items: center;
+}
+.logo{
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+.logo .attract-hover-easing{
+    height: 400px;
+}
+.logo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.intro-gif{
+    height: 250px;
+}
+.intro-gif img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+.intro-text{
+    padding:0 0 0 50px;
+}
+.intro-text h1{
+    font-size: 4rem;
+    line-height: 1.15;
+    letter-spacing: -0.075rem;
+    max-width: 14ch;
+}
+.social-links{
+    padding: 20px 0 0 0;
+}
+.link:nth-child(n+2){
+    padding: 0 0 0 10px;
+}
+.link ion-icon{
+    font-size: 34px;
+    color: #e8be0f;
+}
+.tagline{
+    padding: 0px 0 0 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
