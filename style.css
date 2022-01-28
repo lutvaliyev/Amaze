@@ -133,9 +133,13 @@ header .container{
         width:auto;
     }
     .intro-text{
+        margin-top: -40px;
         width: 100%;
     }
     .intro-text img{
         width: 100%;
+    }
+    .tagline{
+        padding: 15px 0 0 0;
     }
 }
