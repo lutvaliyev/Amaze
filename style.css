@@ -152,7 +152,7 @@ header .container{
 }
 @media (max-width:425px){
     .under-construction{
-        padding-top: 60px;
+        padding-top: 80px;
     }
 }
 @media (max-width:375px){
