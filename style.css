@@ -150,6 +150,11 @@ header .container{
         font-size: 28px;
     }
 }
+@media (max-width:425px){
+    .under-construction{
+        padding-top: 30px;
+    }
+}
 @media (max-width:375px){
     .intro-text{
         margin-top: 0px;
