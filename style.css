@@ -83,12 +83,12 @@ header .container{
     height: 100%;
 }
 .intro-gif{
-    height: 250px;
+    height: 330px;
 }
 .intro-gif img{
-    width: 80%;
+    width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .intro-text{
     width: 555.5px;
@@ -103,7 +103,7 @@ header .container{
     padding: 20px 0 0 0;
 }
 .link:nth-child(n+2){
-    padding: 0 0 0 10px;
+    margin: 0 0 0 10px;
 }
 .link ion-icon{
     font-size: 34px;
@@ -112,7 +112,7 @@ header .container{
 .tagline{
     padding: 0px 0 0 0;
     margin: auto;
-    width: 100%;
+    width: 70%;
     text-align: center;
 }@media (max-width:991px){
     .under-construction{
