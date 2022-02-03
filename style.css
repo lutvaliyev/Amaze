@@ -6,7 +6,7 @@ body{
     width:100%;
     height: 100%;
     overflow-x: hidden;
-    font-family: 'Space Grotesk', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 ul{
     list-style: none;
@@ -110,11 +110,15 @@ header .container{
     color: #e8be0f;
 }
 .tagline{
-    padding: 0px 0 0 0;
+    font-weight: 600 !important;
+    font-size: 32px;
+    padding: 20px 0 0px 0;
     margin: auto;
-    width: 70%;
+    width: 100%;
     text-align: center;
-}@media (max-width:991px){
+    text-transform: uppercase;
+}
+@media (max-width:991px){
     .under-construction{
         position: relative;
         transform: none;
