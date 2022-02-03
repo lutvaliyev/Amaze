@@ -3,6 +3,7 @@ html{
     height: 100%;
 }
 body{
+    background: #d4bc8e !important;
     width:100%;
     height: 100%;
     overflow-x: hidden;
@@ -106,8 +107,9 @@ header .container{
     margin: 0 0 0 10px;
 }
 .link ion-icon{
+    box-shadow: 0px 8px 24px rgb(166 166 166 / 15%);
     font-size: 34px;
-    color: #e8be0f;
+    color: #fff;
 }
 .tagline{
     font-weight: 600 !important;
@@ -126,18 +128,10 @@ header .container{
         top: 0;
         left: 0;
     }
-    .head-intro{
-        display:grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-        grid-template-rows: minmax(200px, auto);
-        grid-auto-flow: dense;
-        grid-gap: 5px;
-    }
     .logo .attract-hover-easing{
         width:auto;
     }
     .intro-text{
-        margin-top: -40px;
         width: 100%;
     }
     .intro-text img{
@@ -145,5 +139,22 @@ header .container{
     }
     .tagline{
         padding: 15px 0 0 0;
+    }
+}
+@media (max-width:768px){
+    .intro-text{
+        margin-top: 0px;
+    }
+    .tagline{
+        /* padding: 0; */
+        font-size: 28px;
+    }
+}
+@media (max-width:375px){
+    .intro-text{
+        margin-top: 0px;
+    }
+    .tagline{
+        padding: 0;
     }
 }
