@@ -3,11 +3,12 @@ html{
     height: 100%;
 }
 body{
-    background: #d4bc8e !important;
+    cursor: none !important;
+    background: #000 !important;
     width:100%;
     height: 100%;
-    overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif !important;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif !important;
 }
 ul{
     list-style: none;
@@ -84,7 +85,7 @@ header .container{
     height: 100%;
 }
 .intro-gif{
-    height: 330px;
+    height: 300px;
 }
 .intro-gif img{
     width: 100%;
@@ -101,24 +102,52 @@ header .container{
     max-width: 14ch;
 }
 .social-links{
-    padding: 20px 0 0 0;
+    padding: 34px 0 48px 0;
 }
 .link:nth-child(n+2){
-    margin: 0 0 0 10px;
+    margin: 0 0 0 54px;
 }
-.link ion-icon{
+.link{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+.cursor:hover .link i{
+    color: #000 !important;
+}
+.link i{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 8px 24px rgb(166 166 166 / 15%);
-    font-size: 34px;
+    font-size: 22px;
     color: #fff;
 }
 .tagline{
+    color: #fff;
     font-weight: 600 !important;
-    font-size: 32px;
-    padding: 20px 0 0px 0;
+    font-size: 26px;
     margin: auto;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+}
+.location{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+.cursor{
+    pointer-events: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.1s;
+    mix-blend-mode: difference;
 }
 @media (max-width:991px){
     .under-construction{
