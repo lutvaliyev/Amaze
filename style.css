@@ -195,7 +195,7 @@ header .container{
 }
 @media (max-width:426px){
     .under-construction{
-        padding-top: 0px;
+        padding-top: 70px;
     }
     .intro-gif{
         height: 280px;
