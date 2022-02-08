@@ -171,24 +171,60 @@ header .container{
     }
 }
 @media (max-width:768px){
-    .intro-text{
-        margin-top: 0px;
+    header .container{
+        max-width: 90%;
     }
-    .tagline{
-        /* padding: 0; */
-        font-size: 28px;
-    }
-}
-@media (max-width:425px){
-    .under-construction{
-        padding-top: 80px;
-    }
-}
-@media (max-width:375px){
     .intro-text{
         margin-top: 0px;
     }
     .tagline{
         padding: 0;
+        font-size: 24px;
+    }
+    .social-links{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+    .link:nth-child(n+2){
+        margin: 0 0 0 24px;
+    }
+    .cursor{
+        display: none;
+    }
+}
+@media (max-width:426px){
+    .under-construction{
+        padding-top: 0px;
+    }
+    .intro-gif{
+        height: 280px;
+    }
+    .tagline{
+        font-size: 20px;
+        padding: 0;
+    }
+    .social-links{
+        padding-bottom: 24px;
+    }
+    .link:nth-child(n+2){
+        margin: 0 0 0 14px;
+    }
+    .location{
+        font-size: 14px;
+    }
+}
+@media (max-width:376px){
+    .intro-text{
+        margin-top: 0px;
+    }
+    .tagline{
+        padding: 0;
+    }
+    .social-links{
+        padding-top: 18px;
+    }
+    .link:nth-child(n+2){
+        margin: 0 0 0 6px;
     }
 }
