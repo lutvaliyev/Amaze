@@ -238,6 +238,9 @@ header .container{
     }
 }
 @media (max-width:376px){
+    header .container{
+        max-width: 100%;
+    }
     .intro-text{
         margin-top: 0px;
     }
