@@ -99,6 +99,10 @@ header .container{
 }
 .intro-gif img:hover{
     filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -o-filter: grayscale(1);
 }
 .intro-text{
     display: inline-block;
