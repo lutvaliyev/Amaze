@@ -101,7 +101,7 @@ header .container{
     -webkit-filter: grayscale(1);
 }
 .intro-text{
-    display: inline-block;
+    display: flex;
 }
 .intro-text h1{
     font-size: 4rem;
