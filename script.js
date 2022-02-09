@@ -1,7 +1,9 @@
-const cursor = document.querySelector('.cursor');
-document.addEventListener('mousemove', (e) => {
-    cursor.setAttribute("style", "top: "+ (e.pageY-75) +"px; left:"+(e.pageX-320) + "px;");
+var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
 });
+
 
 // $('.social-links').hover(function(){
 //     // $('.link').css('border-color', 'red');
